@@ -33,7 +33,7 @@ function get_Output(){
             }    
         }
     };
-    var url = "https://www.boredapi.com/api/activity?";
+    var url = "https://www.boredapi.com/api/activity?"; 
     var and = false;
     if (type != "-1" && participants != "-1")
         and = true;
