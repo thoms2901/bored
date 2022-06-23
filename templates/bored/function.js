@@ -33,7 +33,7 @@ function get_Output(){
             }    
         }
     };
-    var url = "http://www.boredapi.com/api/activity?";
+    var url = "https://www.boredapi.com/api/activity?";
     var and = false;
     if (type != "-1" && participants != "-1")
         and = true;
@@ -43,7 +43,6 @@ function get_Output(){
         url += "&";
     if (participants != "-1")
         url += "participants=" + participants;
-    url +=  "/";
     xhttp.open("GET", url, true);
     xhttp.send();
 }
